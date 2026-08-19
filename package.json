@@ -1,0 +1,12 @@
+{
+  "name": "github-outage-proto",
+  "version": "1.0.0",
+  "description": "Two simple Express services",
+  "scripts": {
+    "install:all": "npm install --prefix service-a && npm install --prefix service-b",
+    "start:a": "npm start --prefix service-a",
+    "start:b": "npm start --prefix service-b",
+    "start": "npm start --prefix service-a & npm start --prefix service-b"
+  },
+  "license": "MIT"
+}
